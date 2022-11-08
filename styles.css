@@ -14,7 +14,8 @@ body {
 
 .header {
     border-bottom:3px dashed rgb(158, 158, 158);
-    background-color: rgb(233, 233, 233);
+    background-image:linear-gradient(to top, #f3f3f3 45%, rgba(0,0,0,0) 90%)
+;    
     min-width:100vw;
     height:150px;
 
@@ -41,6 +42,8 @@ body {
     padding:12px;
 
     flex-direction: column;
+
+    background-image:linear-gradient(to left, #f3f3f3 5%, rgba(0,0,0,0) 90%)
 }
 
 .main{
@@ -58,6 +61,8 @@ body {
     border-right:3px dashed blue;
     display:flex;
     padding:12px;
+
+    background-image:linear-gradient(to right, #f3f3f3 5%, rgba(0,0,0,0) 90%)
 
 }
 
@@ -85,7 +90,8 @@ a{
 }
 
 a:hover{
-    color:rgb(163, 163, 163)
+    color:rgb(163, 163, 163);
+    text-decoration-style:solid;
 }
 
 p{
@@ -105,7 +111,8 @@ ul{
 }
 
 ul a{
-    text-decoration:underline dashed
+    text-decoration:underline dashed;
+    background-image:linear-gradient(to top, #e9e9f0 45%, rgba(0,0,0,0) 40%);
 }
 
 ul li{
@@ -116,3 +123,8 @@ ul li::marker{
     content:'♥ ';
     color:red;
 }
+
+::selection{
+    background-color: grey;
+    color:white;
+  }
