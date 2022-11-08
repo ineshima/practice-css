@@ -14,11 +14,10 @@ body {
 
 .header {
     border-bottom:3px dashed rgb(158, 158, 158);
-    background-image:linear-gradient(to top, #f3f3f3 45%, rgba(0,0,0,0) 90%)
-;    
+    background-color: white;    
     min-width:100vw;
     height:150px;
-
+    margin:0px;
     justify-content: center;
     align-items: center;
 
@@ -57,8 +56,7 @@ body {
 }
 
 .sidebar-right{
-    width:400px;
-    border-right:3px dashed blue;
+    width:200px;
     display:flex;
     padding:12px;
 
@@ -72,7 +70,7 @@ body {
 h1{
     font-size: 50px;
     color:rgb(122, 122, 122);
-    background-color: rgb(240, 240, 240);
+    background-image:linear-gradient(to top, rgb(245, 245, 245) 45%, rgba(0,0,0,0) 40%);
     padding:12px;
 }
 
@@ -127,4 +125,14 @@ ul li::marker{
 ::selection{
     background-color: grey;
     color:white;
+  }
+
+
+.footer{
+    background-color: rgb(245, 245, 245);
+    display:flex;
+    padding:4px;
+    margin:18px;
+    margin-bottom:0px;
+    justify-content: center;
   }
