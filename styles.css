@@ -1,0 +1,118 @@
+body {
+    background-color:white;
+    font-family:monospace;
+    color:rgb(59, 59, 59);
+    display:flex;
+    min-height:100vh;
+    flex:1;
+    margin:0px;
+    align-items: center;
+    display:flex;
+
+    flex-direction: column;
+}
+
+.header {
+    border-bottom:3px dashed rgb(158, 158, 158);
+    background-color: rgb(233, 233, 233);
+    min-width:100vw;
+    height:150px;
+
+    justify-content: center;
+    align-items: center;
+
+    display:flex;
+    box-sizing: border-box;
+}
+
+.content {
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+    flex:1 0 auto;
+    width:1000px;
+    
+}
+
+.sidebar-left{
+    width:200px;
+    display:flex;
+    border-right:3px dashed red;
+    padding:12px;
+
+    flex-direction: column;
+}
+
+.main{
+    min-width:500px;
+    width:600px;
+    border-right:3px dashed green;
+    display:flex;
+    flex-direction: column;
+    padding:12px;
+
+}
+
+.sidebar-right{
+    width:400px;
+    border-right:3px dashed blue;
+    display:flex;
+    padding:12px;
+
+}
+
+
+
+
+h1{
+    font-size: 50px;
+    color:rgb(122, 122, 122);
+    background-color: rgb(240, 240, 240);
+    padding:12px;
+}
+
+h2{
+    background-color: rgb(245, 245, 245);
+    border-right:43.5px dotted rgb(253, 253, 253);
+
+    padding:12px;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(122, 122, 122)
+}
+
+a:hover{
+    color:rgb(163, 163, 163)
+}
+
+p{
+    padding:12px;
+    text-indent: 12px;
+    margin:0;
+}
+
+p::first-letter{
+    color:green;
+    font-size:20px;
+    padding-left:-6px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+ul a{
+    text-decoration:underline dashed
+}
+
+ul li{
+    padding-bottom:4px;
+}
+
+ul li::marker{
+    content:'♥ ';
+    color:red;
+}
