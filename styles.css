@@ -119,7 +119,7 @@ ul li{
 }
 
 ul li::marker{
-    content:'♥ ';
+    content:'▪ ';
     color:red;
 }
 
