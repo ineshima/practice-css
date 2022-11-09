@@ -76,7 +76,7 @@ h1{
 
 h2{
     background-color: rgb(245, 245, 245);
-    border-right:43.5px dotted rgb(253, 253, 253);
+    border-right:43.5px solid rgb(230, 230, 230);
 
     padding:12px;
     margin:0;
