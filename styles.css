@@ -71,6 +71,7 @@ h1{
     color:rgb(122, 122, 122);
     background-image:linear-gradient(to top, rgb(245, 245, 245) 45%, rgba(0,0,0,0) 40%);
     padding:12px;
+    font-family: 'Tinos', serif;
 }
 
 h2{
