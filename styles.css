@@ -58,8 +58,7 @@ body {
     display:flex;
     padding:12px;
     border-left:3px dashed #f3f3f3;
-
-
+    flex-direction: column;
     background-image:linear-gradient(to right, #f3f3f3 5%, rgba(0,0,0,0) 90%)
 
 }
@@ -121,6 +120,15 @@ ul a{
 
 ul li{
     padding-bottom:4px;
+}
+
+.sidebar-right ul li::marker{
+    content:'▪ ';
+    color:blue;
+}
+
+.sidebar-right h3 {
+    background-image:linear-gradient(to top, rgba(17, 0, 255, 0.11) 45%, rgba(0,0,0,0) 40%);
 }
 
 ul li::marker{
